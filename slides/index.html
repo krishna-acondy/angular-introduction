@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Introduction to Angular</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class='title-page' data-state='title-page'>
+					<h1>Introduction to Angular</h1>
+					<br/>
+					<h4>Krishna Acondy</h4>
+					<h6>Senior Software Developer, TissueMark</h6>
+					<h6>Philips Digital & Computational Pathology</h6>
+				</section>
+				<section data-background='#ffffff'>
+					<section data-background='#000000'>
+						<h3>The Plan &#x1F5D2;</h3>
+					</section>
+					<section>
+						<p class="fragment" style='color: #1974da'>What is Angular?</p>
+						<p class="fragment" style='color: #19b3da'>Why do we need Angular?</p>
+						<p class="fragment" style='color: #16ceb7'>Spinning up a new Angular app</p>
+						<p class="fragment" style='color: #1be6c7'>Concepts and terminology</p>
+						<p class="fragment" style='color: #16ce84'>Demo - Scrum board app</p>
+					</section>
+				</section>
+				<section>
+					<section data-background='#1974da'>
+						<h3>What is Angular?</h3>
+					</section>
+					<section>
+						<p class='fragment'>Front-end framework</p>
+						<p class='fragment'>Build apps for web, mobile and desktop</p>
+						<p class='fragment'>Based on TypeScript</p>
+						<p class='fragment'>Provides dev server and tooling</p>
+						<p class='fragment'>Abstracts away build-related pain points</p>
+						<p class='fragment'>Used and developed extensively by Google</p>
+					</section>
+				</section>
+				<section>
+					<section data-background='#19b3da'>
+						<h3>Why do we need Angular?</h3>
+					</section>
+					<section>
+						<img style='border: none' src='./img/microsoft-old.png'/>
+					</section>
+					<section>
+						<img style='border: none' src='./img/css.gif'/>
+					</section>
+					<section>
+						<img style='border: none; width: 40%' src='./img/javascript.png'/>
+					</section>
+					<section>
+						<img style='border: none; width: 40%' src='./img/node.png'/>
+						<img style='border: none' src='./img/npm.jpg'/>
+					</section>
+					<section>
+						<img style='border: none' src='./img/one-lang.png'/>
+					</section>
+					<section>
+						<img style='border: none' src='./img/grunt.svg'/>
+						<img style='border: none' src='./img/gulp.png'/>
+					</section>
+					<section>
+						<img style='border: none' src='./img/babel.png'/>
+					</section>
+					<section>
+						<img style='border: none' src='./img/sass.png'/>
+					</section>
+					<section>
+						<img style='border: none' src='./img/webpack.jpg'/>
+					</section>
+					<section>
+						<img style='border: none' src='./img/ts.png'/>
+					</section>
+					<section>
+						<img style='border: none' src='./img/all.png'/>
+					</section>
+					<section>
+						<img style='border: none; width: 50%' src='./img/angular.png'/>
+					</section>
+				</section>
+				<section>
+					<section data-background='#16ceb7'>
+						<h3>Spinning up a new Angular app</h3>
+					</section>
+					<section>
+						<p class='fragment'>
+							<pre><code style='text-align: center; font-size: 200%; padding: 3%'>npm i -g @angular/cli</code></pre>
+						</p>
+						<p class='fragment'>
+							<pre><code style='text-align: center; font-size: 200%; padding: 3%'>ng new project-name</code></pre>
+						</p>
+						<p class='fragment'>
+							<pre><code style='text-align: center; font-size: 200%; padding: 3%'>ng serve</code></pre>
+						</p>
+					</section>
+				</section>
+				<section>
+					<section data-background='#1be6c7'>
+						<h3>Concepts and terminology</h3>
+					</section>
+					<section>
+						<img style='border: none' src='./img/angular-architecture-overview.png'/>
+					</section>
+					<section>
+						<p class='fragment'>Components</p>
+						<p class='fragment'>Services</p>
+						<p class='fragment'>Modules</p>
+						<p class='fragment'>Directives</p>
+						<p class='fragment'>Pipes</p>
+					</section>
+				</section>
+				<section>
+					<section data-background='#16ce84'>
+						<h3>Demo</h3>
+					</section>
+				</section>
+				<section data-state='last-page'>
+					<h2>Thank you!</h2>
+					<br/><br/>
+					<h1>&#x1F642;</h1>
+					<br/><br/>
+					<h3>Questions?</h3>
+				</section>
+				<section data-state='last-page'>
+					<h1>&#x1F44B;</h1>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
