@@ -28,7 +28,14 @@ export class ScrumBoardComponent implements OnInit {
   }
 
   createStory() {
-    this.matDialog.open(StoryModalComponent, { data: { story: new Story(), callback: this.getStories }});
+    this.matDialog.open(
+      StoryModalComponent,
+      {
+        data: {
+          story: new Story(),
+          callback: this.getStories
+        }
+      });
   }
 
 }
